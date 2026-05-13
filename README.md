@@ -20,4 +20,4 @@ From a technical analyst perspective, this project showcases:
 1. Clone the repository.
 2. Install dependencies: `npm install`
 3. Set up environment variables in a `.env` file.
-4. Run locally: `npm run dev`ד
+4. Run locally: `npm run dev`
