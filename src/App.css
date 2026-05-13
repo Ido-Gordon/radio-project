@@ -1,0 +1,74 @@
+/* כפתור לייק */
+button {
+  padding: 4px 8px; /* הפחת את הגודל של הכפתור */
+  margin: 5px;
+  border-radius: 50%; /* נותן לכפתור להיות עגלגל */
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  font-size: 0.9rem; /* גודל טקסט קטן יותר */
+  transition: transform 0.3s ease, background-color 0.2s ease; /* אנימציה */
+}
+
+button:hover {
+  background-color: #4f6450;
+  transform: scale(1.1); /* הגדר את האנימציה למצב שיגדל כשהכפתור יהיה על hover */
+}
+
+/* עיצוב כפתור הלייק בתמונה */
+button img {
+  width: 20px; /* הגודל של התמונה (לבחירתך) */
+  height: 20px;
+  transition: transform 0.3s ease; /* הוספת אנימציה גם לתמונה */
+}
+
+/* אנימציה בעת לחיצה על כפתור הלייק */
+button:active {
+  transform: scale(0.9); /* כאשר לוחצים, הכפתור יתקטן כדי לתת אפקט של לחיצה */
+}
+
+button:active img {
+  transform: scale(1.2); /* כאשר לוחצים, התמונה של הלייק תגדל ב-20% */
+}
+/* כפתור לייק */
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* עיצוב תיבת הצ'אט */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 600px;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.chat-container div {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.chat-container strong {
+  font-weight: bold;
+  color: #333;
+}
+
