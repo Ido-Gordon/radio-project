@@ -1,23 +1,18 @@
 # 📻 Interactive Radio & Real-Time Chat Platform
 ### Technical Data Portfolio Project
 
-## 📌 Overview
-This application is a live interactive platform built with **React** and **Firebase**. It was designed to handle real-time data synchronization across multiple users, demonstrating proficiency in NoSQL database management and modern frontend architecture.
+## 📌 Project Overview
+This is a full-stack interactive application that enables real-time communication and live radio streaming. The project demonstrates the integration between a modern frontend (**React**) and a cloud-based NoSQL database (**Firebase**) to handle live data streams efficiently.
 
 ## 🛠 Tech Stack
-- **Frontend:** React.js (Vite)
-- **Backend/Database:** Firebase Realtime Database
+- **Frontend:** React.js + Vite (Fast & Modern Build Tool)
+- **Backend/Database:** Firebase Realtime Database (NoSQL)
 - **Authentication:** Firebase Auth
-- **Styling:** Bootstrap 5
+- **Data Handling:** Asynchronous API calls and JSON processing.
 
-## 🔍 Data Analyst Insights
-From a technical analyst perspective, this project showcases:
-- **NoSQL Data Structures:** Implementation of semi-structured JSON data for messages and system states.
-- **Real-time Querying:** Handling live data streams using Firebase listeners.
-- **Environment Security:** Protecting sensitive API credentials through `.env` configurations.
-
-## 🚀 Setup & Installation
-1. Clone the repository.
-2. Install dependencies: `npm install`
-3. Set up environment variables in a `.env` file.
-4. Run locally: `npm run dev`
+## 📊 Technical Analyst Perspective
+From a data perspective, this project focuses on:
+- **NoSQL Data Architecture:** Managing non-relational data structures for high-speed synchronization.
+- **Real-Time Data Flow:** Implementing event listeners to handle live updates without page refreshes.
+- **Data Transformation:** Processing raw JSON objects from the database into a readable UI format.
+- **Security Standards:** Managing API credentials and environment configurations.
